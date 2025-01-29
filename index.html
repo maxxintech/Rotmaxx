@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROTMAXX - Construction Services Kenya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ROTMAXX</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="gradient-text">
+                <h2>Quality Construction Services in Kenya</h2>
+                <h1>BUILDING YOUR VISION</h1>
+            </div>
+            <p class="hero-subtext">Strengthening our nation</p>
+            <button class="cta" onclick="scrollToForm()">GET FREE QUOTE</button>
+        </div>
+        <div class="hero-glows"></div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid"></div>
+    </section>
+
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-container">
+            <div class="about-header">
+                <h2>Building Kenya's Future</h2>
+                <div class="underline"></div>
+            </div>
+    
+            <div class="about-grid">
+                <div class="about-card vision">
+                    <div class="hex-icon">🏗️</div>
+                    <h3>Our Vision</h3>
+                    <p>To be Kenya's most trusted construction partner, transforming skylines through innovative engineering and sustainable practices.</p>
+                </div>
+    
+                <div class="about-card history">
+                    <div class="hex-icon">📅</div>
+                    <h3>15 Years Legacy</h3>
+                    <p>Since 2008, we've delivered 150+ projects across 8 counties, becoming a symbol of quality and reliability in East Africa's construction sector.</p>
+                    <div class="achievements">
+                        <div class="stat">
+                            <div class="stat-value">98%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">150+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="about-card values">
+                    <h3>Core Values</h3>
+                    <div class="value-item">
+                        <div class="value-icon">⚙️</div>
+                        <div class="value-content">
+                            <h4>Innovation First</h4>
+                            <p>Pioneering smart construction technologies adapted for African contexts</p>
+                        </div>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">🤝</div>
+                        <div class="value-content">
+                            <h4>Community Focus</h4>
+                            <p>30% local workforce hiring mandate on all projects</p>
+                        </div>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">🌱</div>
+                        <div class="value-content">
+                            <h4>Sustainability</h4>
+                            <p>ECO+ certified materials used in 85% of our projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <form id="inquiryForm" class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone" required>
+            <select id="serviceType" required>
+                <option value="">Residential Construction</option>
+                <option value="">commercial Buildings</option>
+                <option value="">Renovations</option>
+                <option value="">Project Management</option>
+            </select>
+            <textarea placeholder="Project Details" required></textarea>
+            <button type="submit" class="cta">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ROTMAXX. All rights reserved.</p>
+    </footer>
+
+    <div class="notification"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
